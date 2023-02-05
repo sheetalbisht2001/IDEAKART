@@ -1,0 +1,32 @@
+#footer{
+    width:20%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+#footer>p{
+    /* font-size: 25px; */
+    color: #333333;
+    font:25px Roboto;
+    margin: 10px 0px;
+    margin-bottom: 10px;
+    
+}
+#footer1>p{
+ color: #337AB7;
+ line-height: 12px;
+ margin-left: 40px;
+ font: 15px verdna, arial,helvetica,sans-serif;
+ margin-bottom: 10px;
+
+
+}
+p:hover{
+    cursor:pointer;
+}
+#footer1>a{
+    color: #337AB7;
+    font-weight: 100;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

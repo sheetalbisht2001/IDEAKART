@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #navbar{
+           /* border: 1px solid red; */
+            width: 100%;
+            height:70px;
+            background-color:#4979fd;
+            border-radius: 5px;
+            display:flex;
+            margin: auto;
+            
+
+        }
+        #left{
+            width: 55%;
+            height: 100%;
+            /* border: 1px solid green; */
+            display: flex;
+        }
+
+        #left1{
+                width: 40%;
+                height: 100%;
+                /* border: 1px solid red; */
+            }
+            #left2{
+                width: 70%;
+                height: 70%;
+                display: flex;
+                margin: 9px;
+                
+            }
+            #left1>h2{
+                color: yellow;
+                
+                font-weight: 40px;
+                margin-left: 150px;
+                margin-top: 19px;
+                
+            }
+            #left2 input{
+                width: 80%;
+                
+                height: 100%;
+                border-radius: 5px;
+                border: none;
+                color: white;
+
+
+            }
+            button{
+                
+                width: 20%;
+                height: 100%;
+               border-radius: 5px;
+               border: none;
+
+            }
+
+
+        #right{
+            width: 45%;
+            height: 100%;
+            display:flex;
+                justify-content:center;
+                gap: 60px;
+            /* border: 1px solid green; */
+        }
+
+       
+
+            #right>p{
+                color:white;
+                margin-top: 19px;
+                font: 18px verdna, arial,helvetica,sans-serif;
+            }
+            h2:hover{
+                cursor:pointer;
+            }
+            p:hover{
+                cursor:pointer;
+            }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+
+        <div id="left">
+            <div id="left1" >
+                <h2> <a href=""></a>IDEAKART</h2>
+            </div>
+
+            <div id="left2">
+                <input  type="search" placeholder="Search" id="search" >
+                <button type="submit">Search</button>
+            </div>
+        </div>
+
+        <div id="right">
+        
+            <p> <a href="about.html"></a>About</p>
+    <p><a href="contact.html"></a>Contact</p>
+    <p><a href="signup.html"></a>Sign In</p>
+    <p><a href="signin.html"></a>Sign Up</p>
+   </div>
+        </div>
+    </div>
+</body>
+</html> 

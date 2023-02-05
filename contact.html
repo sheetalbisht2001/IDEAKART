@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Document</title>
+    <style>
+
+
+       /* ---navbar-- */
+     
+
+    </style>
+</head>
+<body>
+
+    <!-- --navbar-- -->
+     
+    
+    <div id="navBar"></div>
+
+    <!-- --contact-- -->
+    <div id="contact">
+        <div id="upperform">
+            <p>You can contact our team by filling this form</p>
+             
+            <div id="upper1">
+            <h3>Firstname *</h3>
+            <h3>Lastname *</h3>
+            </div>
+
+
+            <div id="upper2">
+            <input type="text" id="fname" placeholder="plaease enter your firstname *">
+            <input type="text" id="lname" placeholder="please enter your lastname *">
+            </div>
+
+            <div id="upper3">
+             <h3>Email *</h3>
+             <h3>Phone *</h3>
+            </div>
+
+            <div id="upper4">
+           <input type="text" id="email" placeholder="Please enter your email">
+           <input type="text" id="phone" placeholder="Please enter your phone">
+            </div>
+            <h3>Message *</h3>
+
+            <div id="upper5">
+             <input type="text" id="message" placeholder="Message for me *">
+            </div>
+            <button id="button"  onclick="sendmessage()">Send Message</button>
+        </div>
+    </div>
+
+
+    <!-- ---footer--- -->
+    <div id="foot"></div>
+
+</body>
+</html>
+<script>
+    function sendmessage(){
+        let fname=document.getElementById("fname").value;
+let lname=document.getElementById("lname").value;
+let email=document.getElementById("email").value;
+let phone=document.getElementById("phone").value;
+let message=document.getElementById("message").value;
+
+
+if(fname=="" && lname=="" && email=="" && phone=="" && message==""){
+    alert("Please fill out this field")
+}
+else{
+    alert("Thank you Your form has been submitted");
+}
+    }
+</script>
+
+<script type="module">
+    import navbar from "./components/navbar.js";
+    document.getElementById("navBar").innerHTML=navbar();
+
+    import footer from "./components/footer.js";
+    document.getElementById("foot").innerHTML=footer();
+
+
+</script>
+

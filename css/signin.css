@@ -1,0 +1,62 @@
+body{
+    background-color: #eff3f8;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+        #login_form{
+            display:flex;
+            flex-direction: column;
+            width:80%;
+            margin-left: 150px;
+            /* justify-items: center; */
+            gap: 10px;
+        }
+        #login_form input{
+            border: 1px solid rgb(238, 234, 234);
+            height:30px;
+            border-radius: 5px;
+        }
+        #login_form label{
+            font-weight: bolder;
+        }
+
+        #div_item{
+            display: flex;
+            flex-direction: column;
+            margin-left: 150px;
+            padding-top: 30px ;
+        }
+        #div_rem{
+            display: flex;
+            flex-direction: row;
+            margin-left: 150px;
+        }
+        #submit{
+            width:80px;
+            height:40px;
+            background-color: #449D44;
+            border:1px solid #3c883c;
+            margin-top: 10px;
+            color: white;
+            font-weight: bolder;
+            border-radius: 5px;
+        }
+        #submit a{
+            text-decoration: none;
+            color: white;
+        }
+        #list_div{
+            margin-top: 100px;
+            margin-left: 150px;
+        }
+        #list_div p{
+            font-weight: 00px;
+            font-size: 20px;
+        }
+        .item{
+            color:#23527C;
+        }

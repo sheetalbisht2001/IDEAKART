@@ -1,0 +1,172 @@
+h1{
+    margin-left:60px;
+}
+#bonus-deals{
+    margin:auto;
+    margin-top:20px;
+    width:92%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: (auto); */
+   }
+   #bonus-deals>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     width:80%;
+     height:auto;
+     margin-top:40px;
+     /* position: relative; */
+   }
+   #bonus-deals>div:hover{
+    background-color:rgb(250, 255, 187)
+   }
+   #bonus-deals img{
+     width:100%;
+     height: 300px;
+     margin-right:129px;
+     margin-bottom:5px;
+   }
+   /* #bonus-deals #button{
+    width:90%;
+    margin:auto; */
+    /* border:2px solid red; */
+    /* position: absolute; 
+     bottom: 0; */
+    /* width: 100%;
+    background:  #cccccc; */
+    /* display:flex;
+    justify-content:space-between;
+   }  */
+    #bonus-deals #view{
+    border-top:1px solid black;
+    width:95%;
+    margin:auto;
+    border-bottom:0px;
+    border-left:0px;
+    border-right:0px;
+    color:#337ab7;
+    background-color: white;
+    text-decoration:none;
+    padding:10px 40px 10px 40px;
+    
+  
+   } 
+    #bonus-deals #view:hover{
+    background-color:rgb(250, 255, 187)
+   } 
+   /* #bonus-deals #book{
+    border:4px solid black;
+    margin:right;
+    color:#337ab7;
+    background-color: white;
+    text-decoration:none;
+  
+   }  */
+
+   /* #bonus-deals>#view{
+    width: 119px;
+    height:30px;
+    background-color:white;
+    border:none;
+    color:#206a00;
+   text-decoration:bold;
+    
+    margin-top:-10px;
+   }
+   #bonus-deals>#view:hover{
+     background-color:rgb(195, 195, 64);
+   }
+   #bonus-deals>.book{
+    width: 119px;
+    height:30px;
+    background-color:white;
+    border:none;
+    color:#206a00;
+   text-decoration:bold;
+    
+    margin-top:-10px;
+   }
+   #bonus-deals>.book:hover{
+     background-color:rgb(195, 195, 64);
+   }  */ */
+   #namee{
+    margin-left:0px;
+    margin-top:10px;
+    text-align:left;
+    font-size:23px;
+   
+  }
+  #pricee{
+    font-size:22px;
+    width:235px;
+    color: #337ab7;;
+    margin-left:10px;
+    margin-top:30px;
+   
+  }
+   #saveprice{
+    background-color: white;
+    width: 88px;
+  
+   margin-top:-30px; 
+ 
+  } 
+  #wasprice{
+    text-align:right;
+    margin-top:-25px;
+    margin-right:20px;
+  } 
+
+
+   #bonous-deal{
+    border: 1px solid black;
+    width:20%;
+    margin:auto;
+  }
+  #bonous-deal img{
+    width:100%;
+  }
+  #bonous-deal p{
+    background-color: white;
+    width: 88px;
+    margin-left:200px;
+   margin-top:-80px; 
+   
+  }
+  /* #bonus-deals #view{
+    width: 119px;
+    height:30px;
+    background-color:white;
+    border:none;
+    color:#206a00;
+   text-decoration:bold;
+    margin-left:170px;
+    margin-top:1px;
+  }
+  #bonus-deals #book{
+    width: 119px;
+    height:30px;
+    background-color:white;
+    border:none;
+    color:#206a00;
+   text-decoration:bold;
+   margin-right:0px;
+    margin-top:1px;
+
+  } */
+  #bonous-deal h2{
+    font-size:25px;
+    width:275px;
+    color: #f98d29;
+    margin-left:10px;
+    margin-top:30px;
+   border-top:2px solid black;
+  }
+  #foot{
+    margin-top: 100px;
+  }
+  #usrr{
+    color: black;
+    margin-left:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+  }
